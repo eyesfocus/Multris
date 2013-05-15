@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">MULTRIS</string>
+
+    <!-- EntryActivity -->
+    <string name="entry_title">HOME</string>
+    <string name="button_new_game">NEW GAME</string>
+    <string name="button_cancel">QUIT</string>
+    <string name="button_view_highscore">HIGHSCORE</string>
+
+    <!-- GameModeActivity -->
+    <string name="gamemode_title">MODE</string>
+    <string name="button_singleplayer">TETRIS</string>
+    <string name="button_multiplayer">MULTRIS</string>
+
+    <!-- BTConnectionActivity -->
+    <string name="connection_title">MULTRIS</string>
+    <string name="button_join_multiplayer_game">JOIN</string>
+    <string name="button_create">NEW</string>
+    <string name="button_close">CLOSE</string>
+    <string name="button_search">SEARCH</string>
+    <string name="button_cancel_search">STOP</string>
+    <string name="button_start_game">START</string>
+    <!-- Bluetooth Strings -->
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting</string>
+    <string name="title_connected_to">connected to: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!-- DeviceListActivity -->
+    <string name="devicelist_title">DEVICES</string>
+    <string name="title_paired_devices">PAIRED</string>
+    <string name="title_other_devices">OTHER</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <!-- Highscore Dialog -->
+    <string name="new_highscore_title">NEW HIGHSCORE</string>
+
+    <!-- HighscoreActivity -->
+    <string name="highscore_title">%s SCORE</string>
+    <string name="highscore_col_name">NAME</string>
+    <string name="highscore_col_points">POINTS</string>
+    <string name="highscore_button_save">SAVE</string>
+    <string name="highscore_button_cancel">BACK</string>
+
+</resources>

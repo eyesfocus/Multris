@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <!-- The Header of Devices List -->
+    <style name="ListViewHeader" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/three</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- The Members of Devices List -->
+    <style name="ListViewStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <!-- The Header of Highscore Table -->
+    <style name="TableHeaderView" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/three</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- The Rows of Highscore Table -->
+    <style name="TableRowViewStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">@color/lightgrey</item>
+        <item name="android:background">@color/one</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Menu Button -->
+    <style name="MenuButtonStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textColor">@drawable/menu_button_text_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Dialog Button -->
+    <style name="DialogButtonStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textColor">@drawable/menu_button_text_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Layout -->
+    <style name="LayoutStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:background">@color/one</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Layout Header -->
+    <style name="ActivityHeaderStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:background">@color/four</item>
+        <item name="android:textColor">@color/one</item>
+        <item name="android:textSize">56sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">70dp</item>
+    </style>
+
+    <!-- Progress Dialog -->
+    <style name="GenericProgressBackground" parent="android:Theme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="GenericProgressIndicator" parent="@android:style/Widget.ProgressBar.Large">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <style name="NoTitleStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Dialogs -->
+    <style name="CustomDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radio_button</item>
+    </style>
+
+</resources>

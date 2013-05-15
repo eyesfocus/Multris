@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutStyle"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/header"
+        style="@style/ActivityHeaderStyle"
+        android:background="@color/four"
+        android:paddingTop="20dp"
+        android:text="@string/connection_title"
+        android:textSize="32sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/list_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.78"
+            android:text="Verfügbare Spiele" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar_device_scan"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/paired_devices"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/one"
+            android:stackFromBottom="true" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/create_multiplayer_game"
+                style="@style/DialogButtonStyle"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_button"
+                android:padding="10dp"
+                android:text="@string/button_create" />
+
+            <Button
+                android:id="@+id/search_multiplayer_game"
+                style="@style/DialogButtonStyle"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_button"
+                android:padding="10dp"
+                android:text="@string/button_search" />
+
+            <Button
+                android:id="@+id/start_multiplayer_game"
+                style="@style/DialogButtonStyle"
+                android:layout_weight="1"
+                android:background="@drawable/menu_button"
+                android:padding="10dp"
+                android:text="@string/button_start_game" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

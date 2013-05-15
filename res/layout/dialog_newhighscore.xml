@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/newhighscoredialog"
+    style="@style/LayoutStyle"
+    android:layout_height="250dp">
+
+    <TextView
+        android:id="@+id/header"
+        style="@style/ActivityHeaderStyle"
+        android:layout_alignParentTop="true"
+        android:paddingTop="20dp"
+        android:text="@string/new_highscore_title"
+        android:textSize="32sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:inputType="text"
+            android:maxLength="8"
+            android:padding="8dp"
+            android:textSize="20sp" >
+        </EditText>
+
+        <Button
+            android:id="@+id/save_button"
+            style="@style/DialogButtonStyle"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_button"
+            android:text="@string/highscore_button_save" />
+
+        <Button
+            android:id="@+id/cancel_button"
+            style="@style/DialogButtonStyle"
+            android:layout_weight="1"
+            android:background="@drawable/menu_button"
+            android:text="@string/highscore_button_cancel" />
+    </LinearLayout>
+
+</RelativeLayout>
